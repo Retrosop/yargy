@@ -22,6 +22,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="cafe.py" />
+    <Compile Include="oblact.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mathvir.py" />
+    <Compile Include="otvetzak.py" />
     <Compile Include="textwork.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
